@@ -1,14 +1,15 @@
-.headerimg{
-    background-color: aqua;
-    height: auto;
-    max-width: 100%;
+#headerimg{
+    height: 250px;
+    width: 100%;
     position: relative;
-    
+    background-repeat: no-repeat;
+    background-size: 100% 250px;
+    background-image: url(/img/mia.jpg)
 }
 
 ul{
     list-style-type: none;
-    margin: 0;
+    margin: auto;
     padding: 0;
     overflow: hidden;
     background-color: black;
